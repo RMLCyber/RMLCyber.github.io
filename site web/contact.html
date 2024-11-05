@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - ENSIT</title>
+    <link rel="stylesheet" href="CSS/contact.css">
+    <script src="JS/contact.js" defer></script> <!-- Lien vers le fichier JS -->
+</head>
+<body>
+    <header>
+        <img src="photos/contact.jpeg" alt="Vue de l'ENSIT" style="max-width: 100%; height: auto;">
+        <h1>Contactez-nous</h1>
+        <p>Nous sommes là pour répondre à vos questions.</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Accueil</a></li>
+            <li><a href="programmes.html">Programmes</a></li>
+            <li><a href="a_propos.html">À Propos</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h2>Formulaire de Contact</h2>
+        <form id="contactForm">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Envoyer</button>
+        </form>
+        <p id="responseMessage" class="hidden"></p> 
+    </section>
+    <footer>
+        <p>&copy; 2024 ENSIT - Tous droits réservés</p>
+        <p>Adresse : Bd Latrille Rue Farandole K22 Cocody II Plateaux, 01 BP 3114 Abidjan 01</p>
+        <p>Téléphone : 27 22 41 65 63</p>
+        <p><a href="https://www.facebook.com/ensitabj/" target="_blank">Suivez-nous sur Facebook</a></p>
+    </footer>
+</body>
+</html>
